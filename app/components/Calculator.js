@@ -57,7 +57,7 @@ const Calculator = () => {
 
       <button onClick={getValue} value='0'>0</button>
       <button onClick={back}>Back</button>
-      <button className="bg-green-500 text-white" onClick={calculation}>=</button>
+      <button className="bg-orange-500 text-white" onClick={calculation}>=</button>
       <button onClick={getValue} value='/'>/</button>
       </div>
     </div>
